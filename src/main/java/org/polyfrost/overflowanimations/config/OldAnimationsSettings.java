@@ -128,6 +128,14 @@ public class OldAnimationsSettings extends Config {
     public static boolean visualSwing = true;
 
     @Switch(
+            name = "Always 1.7 Miss Penalty ",
+            description = "This option is purely visual. Applies 1.7's Miss pentalty animation to all swings regardless of if a target is missed.",
+            subcategory = "Interaction"
+    )
+    public static boolean alwaysVisualSwing = true;
+    
+
+    @Switch(
             name = "1.7 Punching During Usage",
             description = "Purely visual feature. Re-enables the ability to consume food or block a sword whilst punching a block.",
             subcategory = "Interaction")
